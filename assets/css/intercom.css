@@ -1,0 +1,786 @@
+/*forum post new*/
+.myScroll{
+    display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myScroll:hover {
+  background-color: #555;
+}
+
+.myCM{
+  padding: 5px;
+}
+.post_block h3 {
+    background: #d8dde8;
+    padding: 0 10px;
+    height: 36px;
+    line-height: 36px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.author_info {
+    width: 155px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px 10px;
+}
+.post_body {
+    margin: 0 10px 0 185px;
+    padding-top: 15px;
+}
+/*end forum post*/
+.morlink{
+  background-color:#1FB76E;
+  border-color: #1FB76E;
+ /* width:24px;
+  height:auto;*/
+}
+.forumTitle{
+  text-align: center;
+}
+
+/* phone */
+
+
+.book{
+      overflow-y: initial !important
+}
+.list{
+  height: 250px;
+  overflow-y: auto;
+}
+/*end phone*/
+
+/*new message modal*/
+.modal-header-info {
+    color:#fff;
+    background-color: #5bc0de;
+}
+
+
+/* Actions */
+.actions {
+  /*float: right;*/
+    display: inline-block;
+}
+
+.actions a {
+  margin-left: 3px;
+}
+
+.actions .btn {
+  color: #666;
+  border-color: #ccc;
+  border-radius: 50px;
+}
+
+.actions .btn i {
+  font-size: 12px;
+}
+
+.actions .btn:hover {
+  background: #f2f2f2;
+}
+
+/*FORUM STYLE*/
+.avt{
+    height: 38px;
+    border: none;
+   
+    background-color: #1abc9c;
+}
+/*topic tble
+we must find a way and remove this class here
+*/
+.row{
+        margin-top:10px;
+        margin-right: 0px; 
+        margin-left: 0px; 
+    }
+    .clickable{
+        cursor: pointer;   
+    }
+
+    .paneHead div {
+      margin-top: -18px;
+      font-size: 15px;
+    }
+    .paneHead div span{
+      margin-left:5px;
+    }
+    .pane{
+      display: none;
+    }
+    /*end topic table style*/
+/********END FORUM STYLE****/
+.avtt{
+    height: 38px;
+    border: none;
+    background-color: #1abc9c;
+}
+
+/*FORUM STYLE*/
+.icons
+{
+  color:#25b695;
+  margin-left: 5px;
+}
+
+.category-header {
+  background: $gradient2;
+  line-height: 40px;
+}
+
+.forum-list {
+  background-color: rgb(240, 240, 240);
+  
+  .forum-list-spacer {
+    padding: 15px;
+    margin: 10px;
+    background-color:#25b695;
+    width: 100%;
+    
+    .forum-title {
+      .title {
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      /*div {
+        marign-left: 10px;
+        margin-right: 10px;
+      }*/
+    }
+  }
+  
+  .forum-last-post {    
+    .info {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+.bgColor
+{
+  background-color: #25b695;
+  color:#fff;
+}
+
+/***********COMMENT SECTION*************/
+.tags,
+.tags li {
+    padding-left: 0 !important;
+}
+
+.tags a {
+    color: #bdbdbd;
+    background-color: transparent;
+    border: 1px solid #eaecef;
+    padding: 5px 12px;
+}
+
+.img-thumbnail {
+    border-radius: 0;
+     width:130px;
+    height:130px
+}
+
+/****************forum*********************/
+
+/*CALENDAR EVENTS*/
+.servive-block {
+  /*padding: 20px 30px;*/
+  text-align: center;
+  margin-bottom: 20px;
+}
+.servive-block-purple {
+  background: #9b6bcc;
+}
+.servive-block-aqua {
+  background: #27d7e7;
+}
+.servive-block-yellow {
+  background: #f1c40f;
+}
+.servive-block-red {
+  background: #FF6F6F;
+}
+.servive-block-green {
+  background: #99F499;
+}
+/******************/
+
+/* button div */
+#event_buttons {
+  padding-top: 8px;
+  text-align: center;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.yellow {
+  background-color: #f1c40f;
+  box-shadow: 0px 5px 0px 0px #D8AB00;
+}
+
+/***********************************************************************************************************/
+/*------------------------------------*\
+    3. TOPICS AREA
+\*------------------------------------*/
+.topic--list {
+    margin-bottom: 30px;
+}
+.topic--list:last-child {
+    margin-bottom: 0;
+}
+
+.topic-list--header {
+    background-color: #293a4a;
+    white-space: nowrap;
+    position: relative;
+}
+.topic-list-header--title {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+a.topic-list-header--title:hover,
+a.topic-list-header--title:focus {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.topic-list-header--title i.fa {
+    margin-right: 10px;
+}
+.topic-list-header--toggle-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 18px 20px 14px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-transition: opacity .25s ease-in-out;
+            transition: opacity .25s ease-in-out;
+    cursor: pointer;
+}
+.topic--list:hover .topic-list-header--toggle-btn,
+.topic-sidebar--widget:hover .topic-list-header--toggle-btn {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.topic-list--content {
+    overflow: hidden;
+}
+
+.topic-list--content > ul > li {
+    margin: 10px 0;
+    padding-top: 2px;
+    padding-bottom: 14px;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #e9e9e9;
+    background-color: #fff;
+    overflow: hidden;
+}
+.topic-list--content > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.topic-list-header--toggle-btn.toggled i.fa:before {
+    content: "\f067";
+}
+
+.topic-list--content ul li.topic-list--sub {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+.back-to-top button {
+    display: block;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #84e486;
+    border: none;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.topic-list--content {
+    overflow: hidden;
+}
+
+.topic-list-header--toggle-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 18px 20px 14px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    /* cursor: pointer; */
+}
+/**********intercom notifications***********/
+
+/* THE NOTIFICAIONS WINDOW. THIS REMAINS HIDDEN WHEN THE PAGE LOADS. */
+    #notifications {
+      margin-top:10px;
+        display:none;
+        width:200px;
+        position:absolute;
+        top:30px;
+        left:0;
+        background:#FFF;
+        border:solid 1px rgba(100, 100, 100, .20);
+        -webkit-box-shadow:0 3px 8px rgba(0, 0, 0, .20);
+        z-index: 99;
+    }
+    /* AN ARROW LIKE STRUCTURE JUST OVER THE NOTIFICATIONS WINDOW */
+    #notifications:before {         
+        content: '';
+        display:block;
+        width:0;
+        height:0;
+        color:transparent;
+        border:10px solid #CCC;
+        border-color:transparent transparent #FFF;
+        margin-top:-20px;
+        margin-left:10px;
+    }
+                
+    .seeAll {
+        background:#F6F7F8;
+        padding:8px;
+        font-size:12px;
+        font-weight:bold;
+        border-top:solid 1px rgba(100, 100, 100, .30);
+        text-align:center;
+    }
+    .seeAll a {
+        color:#3b5998;
+    }
+    .seeAll a:hover {
+        background:#F6F7F8;
+        color:#3b5998;
+        text-decoration:underline;
+    }
+
+    /* A CIRCLE LIKE BUTTON IN THE TOP MENU. */
+    #noti_Button {
+        width:22px;
+        height:22px;
+        line-height:22px;
+        border-radius:50%;
+        -moz-border-radius:50%; 
+        -webkit-border-radius:50%;
+        background:#d80000;
+        margin:-36px -10px 0 44px;
+        cursor:pointer;
+        color:#FFF;
+    }
+        
+    /* THE POPULAR RED NOTIFICATIONS COUNTER. */
+    #noti_Counter {
+        display:block;
+        position:absolute;
+        background:#E1141E;
+        color:#FFF;
+        font-size:12px;
+        font-weight:normal;
+        padding:1px 3px;
+        margin:-8px 0 0 25px;
+        border-radius:2px;
+        -moz-border-radius:2px; 
+        -webkit-border-radius:2px;
+        z-index:1;
+    }
+
+  /**********intercom notifications***********/
+
+  /***new messages**/
+.mail-box {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.mail-box aside {
+    display: table-cell;
+    float: none;
+    height: 100%;
+    padding: 0;
+    vertical-align: top;
+}
+.mail-box .sm-side {
+    background: none repeat scroll 0 0 #e5e8ef;
+    border-radius: 4px 0 0 4px;
+    width: 25%;
+}
+.mail-box .lg-side {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 0 4px 4px 0;
+    width: 75%;
+}
+.mail-box .sm-side .user-head {
+    background: none repeat scroll 0 0 #00a8b3;
+    border-radius: 4px 0 0;
+    color: #fff;
+    min-height: 80px;
+    padding: 10px;
+}
+.user-head .inbox-avatar {
+    float: left;
+    width: 65px;
+}
+.user-head .inbox-avatar img {
+    border-radius: 4px;
+}
+.user-head .user-name {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.user-head .user-name h5 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.user-head .user-name h5 a {
+    color: #fff;
+}
+.user-head .user-name span a {
+    color: #87e2e7;
+    font-size: 12px;
+}
+a.mail-dropdown {
+    background: none repeat scroll 0 0 #80d3d9;
+    border-radius: 2px;
+    color: #01a7b3;
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 3px 5px;
+}
+
+.btn-compose {
+    background: none repeat scroll 0 0 #ff6c60;
+    color: #fff;
+    padding: 12px 0;
+    width: 100%;
+}
+.btn-compose:hover {
+    background: none repeat scroll 0 0 #f5675c;
+    color: #fff;
+}
+ul.inbox-nav {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.inbox-divider {
+    border-bottom: 1px solid #d5d8df;
+}
+ul.inbox-nav li {
+    display: inline-block;
+    line-height: 45px;
+    width: 100%;
+}
+ul.inbox-nav li a {
+    color: #6a6a6a;
+    display: inline-block;
+    line-height: 45px;
+    padding: 0 20px;
+    width: 100%;
+}
+ul.inbox-nav li a:hover, ul.inbox-nav li.active a, ul.inbox-nav li a:focus {
+    background: none repeat scroll 0 0 #d5d7de;
+    color: #6a6a6a;
+}
+ul.inbox-nav li a i {
+    color: #6a6a6a;
+    font-size: 16px;
+    padding-right: 10px;
+}
+ul.inbox-nav li a span.label {
+    margin-top: 13px;
+}
+ul.labels-info li h4 {
+    color: #5c5c5e;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+ul.labels-info li {
+    margin: 0;
+}
+ul.labels-info li a {
+    border-radius: 0;
+    color: #6a6a6a;
+}
+ul.labels-info li a:hover, ul.labels-info li a:focus {
+    background: none repeat scroll 0 0 #d5d7de;
+    color: #6a6a6a;
+}
+ul.labels-info li a i {
+    padding-right: 10px;
+}
+.nav.nav-pills.nav-stacked.labels-info p {
+    color: #9d9f9e;
+    font-size: 11px;
+    margin-bottom: 0;
+    padding: 0 22px;
+}
+.inbox-head {
+    background: none repeat scroll 0 0 #41cac0;
+    color: #fff;
+    padding: 20px;
+}
+.inbox-head h3 {
+    display: inline-block;
+    margin: 0;
+}
+.inbox-head .sr-input {
+    border: medium none;
+    border-radius: 4px 0 0 4px;
+    box-shadow: none;
+    color: #8a8a8a;
+    float: left;
+    height: 40px;
+    padding: 0 10px;
+}
+.inbox-head .sr-btn {
+    background: none repeat scroll 0 0 #00a6b2;
+    border: medium none;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    height: 40px;
+    padding: 0 20px;
+}
+.table-inbox {
+    border: 1px solid #d3d3d3;
+    margin-bottom: 0;
+}
+.table-inbox tr td {
+    padding: 12px !important;
+}
+.table-inbox tr td:hover {
+    cursor: pointer;
+}
+.table-inbox tr td .fa-star.inbox-started, .table-inbox tr td .fa-star:hover {
+    color: #f78a09;
+}
+.table-inbox tr td .fa-star {
+    color: #d5d5d5;
+}
+.table-inbox tr.unread td {
+    background: none repeat scroll 0 0 #f7f7f7;
+    font-weight: 600;
+}
+ul.inbox-pagination {
+    float: right;
+}
+ul.inbox-pagination li {
+    float: left;
+}
+.mail-option {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.mail-option .chk-all, .mail-option .btn-group {
+    margin-right: 5px;
+}
+.mail-option .chk-all, .mail-option .btn-group a.btn {
+    background: none repeat scroll 0 0 #fcfcfc;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px !important;
+    color: #afafaf;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.inbox-pagination a.np-btn {
+    background: none repeat scroll 0 0 #fcfcfc;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px !important;
+    color: #afafaf;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.mail-option .chk-all input[type="checkbox"] {
+    margin-top: 0;
+}
+.mail-option .btn-group a.all {
+    border: medium none;
+    padding: 0;
+}
+.inbox-pagination a.np-btn {
+    margin-left: 5px;
+}
+.inbox-pagination li span {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+.inbox-body .modal .modal-body input, .inbox-body .modal .modal-body textarea {
+    border: 1px solid #e6e6e6;
+    box-shadow: none;
+}
+.btn-send, .btn-send:hover {
+    background: none repeat scroll 0 0 #00a8b3;
+    color: #fff;
+}
+.btn-send:hover {
+    background: none repeat scroll 0 0 #009da7;
+}
+.modal-header h4.modal-title {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+}
+.modal-body label {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+}
+.heading-inbox h4 {
+    border-bottom: 1px solid #ddd;
+    color: #444;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.sender-info {
+    margin-bottom: 20px;
+}
+.sender-info img {
+    height: 30px;
+    width: 30px;
+}
+.sender-dropdown {
+    background: none repeat scroll 0 0 #eaeaea;
+    color: #777;
+    font-size: 10px;
+    padding: 0 3px;
+}
+
+ul {
+    list-style-type: none;
+}
+  /**new messages**/
+  
+/*calendar style*/
+.events-preview: first-of-type {
+    padding-top: 17px;
+}
+.events-preview:hover{
+  background-color: lightgrey;
+}
+.events-preview-date {
+    display: table;
+    float: left;
+    width: 63px;
+    height: 63px;
+    margin-top: 5px;
+    /*background-color: #0a63b1;*/
+    color: white;
+    line-height: 1.05556em;
+    font-family: "adelle", serif;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.events-preview-date-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.events-preview-content {
+    padding-left: 82px;
+}
+
+/*calendar style end*/
+.mytHead{width: calc( 100% - 1em );display:table;width:100%;table-layout:fixed;}
+.myTbody{display:table;width:100%;table-layout:fixed;display:block;height:200px;overflow:auto;}
+.myTr{display:table;width:100%;table-layout:fixed;
+      color:red;
+    }
+
+#editingAnn:hover{
+    background: #60bad2;
+    color: white;
+}
+#deleteAnnID:hover{
+    background: #dc4023;
+    color: white;
+}
+.sizweTd{
+        border: 1px solid #e0e0e0;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+/**stars**/
+.star-rating {
+  line-height:32px;
+  font-size:1.25em;
+}
+
+.star-rating .fa-star{color: #FFDF00;}
+/**stars end**/
+.disc_actiion:hover{
+    background-color: #EE443C;
+    color:white;
+}
+.disc_actioon:hover{
+background-color: #39B7F2;
+color:white;
+}

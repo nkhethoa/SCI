@@ -1,0 +1,253 @@
+/*****timetable*****/
+.heavyTable {
+  
+  height: 320px;
+  border-collapse: collapse;
+  border: 1px solid #38678f;
+  margin: 50px auto;
+  background: white;
+}
+.head_content {
+    background: #29846d8f;
+    height: 30px;
+    /* width: 10%; */
+    font-weight: lighter;
+    text-shadow: 0 1px 0 #777;
+    color: white;
+    /* border: 1px solid #38678f; */
+}
+.row_content {
+  border-bottom: 1px solid #cccccc;
+}
+.row_content:last-child {
+  border-bottom: 0px;
+}
+.box_content {
+    border-right: 1px solid #60a3929c;
+    border-left: 1px solid #60a3929c;
+    padding: 10px;
+}
+/*.box_content:last-child {
+  border-right: 0px;
+}*/
+.box_content.selected {
+  background: #d7e4ef;
+  z-index: ;
+}
+.box_content input {
+  font-size: 14px;
+  background: none;
+  outline: none;
+  border: 0;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+}
+.box_content input:focus {
+  box-shadow: 0 1px 0 steelblue;
+  color: steelblue;
+}
+::-moz-selection {
+  background: steelblue;
+  color: white;
+}
+::selection {
+  background: steelblue;
+  color: white;
+}
+.heavyTable {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: float 5s infinite;
+}
+
+.content {
+  color: white;
+  text-align: center;
+}
+
+/*end timetable*/
+@media only screen and (max-width: 991px) {
+.nav-mobile>li>a.active,
+.nav-mobile>li>a.active .glyphicon {
+  color: red;
+
+}/*
+ul.nav-mobile .nav>li a .glyphicon,
+ul.nav-mobile .nav>li a .fa{
+  color:#41C493;
+  padding-left: 5px;
+}
+
+ul.nav-mobile .nav>li a {
+color: #488771;
+  text-decoration: none;
+}
+.modal-dialog{
+    position: relative;
+    display: table; /* <-- This makes the trick 
+    overflow-y: auto;    
+    overflow-x: auto;
+    width: auto;
+    max-width: 700px;   
+}*/
+div.nav.nav-mobile>li a:hover,
+div.nav.nav-mobile>li a:focus{
+    text-decoration: none;
+    outline: none;
+    background-color:#41C493;
+}
+.nav-mobile>li>a {
+  position: relative;
+  display: block;
+  padding: 5px 10px;
+  color: #64a47b;
+}
+.menuBtn{
+    padding-right: 0px;
+    border-right-width: 0px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+.mainTab-tab{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+}/*end media query*/
+
+.btn-add{
+  color: #fff;
+    background-color: #61a27a;
+    border-color: #65a67c;
+}
+.tabImg{
+    width:25px; 
+    height:25px; 
+    border-radius: 50%;
+    border:1px solid green
+}
+.modal_head_color{
+    background-color: #40732b66;
+}
+.xCloseBtn{
+    color: red;
+}
+.btnmarg-left{
+    margin-left: 10px;
+}
+.btn-float-right{
+    float: right;
+}
+.learn-well{
+    background-color: #7fa27f2e;
+}
+
+.list_group-item{
+    padding-left: 5px;
+    border-bottom-width: 6px;
+}
+.badgeColor{
+    color:white;
+    background-color: green;
+}
+.comment-list{
+  margin-top: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.academic_calendar{
+    background: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    margin: 10px;
+}
+.attend-progress-margin{
+  margin:10px;
+}
+/*Assignment Upload*/
+/*file upload academy*/
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -5px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+ }
+.files{ position:relative}
+.files:after {  pointer-events: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(../images/9612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+
+.files:before {
+    position: absolute;
+    bottom: 0px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 120px;
+    content: "or drag it here";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.del_btn span{
+    color: red;
+}
+
+/*************************************************/
+.marks{
+    color:green;
+    font-weight: bold;
+}
+.no_underline>a, .no_underline>a:active{
+    color: #000000;
+}
+.no_underline>a:hover{
+    text-decoration: none;
+    color:#98d0c3;
+}
+.glyphicon-green{
+    color: green;
+}
+.glyphicon-red{
+    color: red;
+}
+.glyphicon-grey{
+    color: grey;
+}
+.guard-well-bg{
+    background-color: #7fa27f2e;
+}
+
+.arrows{
+    width: 25px;
+    height: 25px;
+}

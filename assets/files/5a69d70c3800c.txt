@@ -1,0 +1,139 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+<div class="container-fluid">
+    
+<!-- Overlay for fixed sidebar -->
+<div class="sidesbar-ovserlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar side-margins open col-xs-12 col-md-3" role="navigation" style="margin-left: 0px;margin-right: 0px">
+    <!-- Sidebar header -->
+       <div class="sidebar-header header-cover" style="background-image: url();">
+        <!-- Top bar -->
+        <div class="top-bar"></div>
+        <!-- Sidebar toggle button -->
+        <button type="button" class="sidebar-toggle">
+            <i class="icon-material-sidebar-arrow"></i>
+        </button>
+        <!-- Sidebar brand image -->
+        <div class="sidebar-image">
+            <?= (isset($_SESSION['filePath'])) ? '<img src='.$_SESSION['filePath'].'>': '<span class="glyphicon glyphicon-user fa-5x" style=color:gray></span>';?>
+        </div>
+        <!-- Sidebar brand name -->
+        <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+            <?= (isset($_SESSION['username'])) ? $_SESSION['username'] : '<span class="glyphicon glyphicon-email fa-5x" style=color:white></span>';?> 
+            <b class="caret"></b>
+        </a>
+    </div>
+
+    <!-- Sidebar navigation -->
+    <ul class="nav sidebar-nav">
+        <li class="dropdown">
+            <ul id="settings-dropdown" class="dropdown-menu">
+                <li>
+                    <a href="#" tabindex="-1">
+                        Profile
+                    </a>
+                </li>
+                <li>
+                    <a href="#" tabindex="-1">
+                        Settings
+                    </a>
+                </li>
+                <li>
+                    <a href="#" tabindex="-1">
+                        Help
+                    </a>
+                </li>
+                <li>
+                    <a href="#" tabindex="-1">
+                        Exit
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+                <i class="sidebar-icon md-inbox"></i>
+                Inbox
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="sidebar-icon md-star"></i>
+                Starred
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="sidebar-icon md-send"></i>
+                Sent Mail
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="sidebar-icon md-drafts"></i>
+                Drafts
+            </a>
+        </li>
+    
+</aside>
+
+<div class="wrapper ">
+    <!-- Sidebar Constructor -->
+    <div class="constructor side-margins col-xs-6 col-md-9" style="width: 100%;display: inline-block;">
+        <div class="row">
+       <div class="col-xs-5 col-md-3">
+           <a href="#" class="btn btn-sq-lg btnColours">
+            <i class="fa fa-plug fa-5x"></i><br/>
+         Permissions  <br>
+        </a>
+       </div> <div class="col-xs-5 col-md-3">
+           <a href="#" class="btn btn-sq-lg btnColours">
+            <i class="fa fa-plug fa-5x"></i><br/>
+         Permissions  <br>
+        </a>
+       </div>
+        <div class="col-xs-5 col-md-3">
+           <a href="#" class="btn btn-sq-lg btnColours">
+            <i class="fa fa-plug fa-5x"></i><br/>
+         Permissions  <br>
+        </a>
+       </div>
+        <div class="col-xs-5 col-md-3">
+           <a href="#" class="btn btn-sq-lg btnColours">
+            <i class="fa fa-plug fa-5x"></i><br/>
+         Permissions  <br>
+        </a>
+       </div>
+         </div>
+         <div class="row">
+       <div class="col-xs-5 col-md-3">
+           <a href="#" class="btn btn-sq-lg btnColours">
+            <i class="fa fa-plug fa-5x"></i><br/>
+         Permissions  <br>
+        </a>
+       </div> <div class="col-xs-5 col-md-3">
+           <a href="#" class="btn btn-sq-lg btnColours">
+            <i class="fa fa-plug fa-5x"></i><br/>
+         Permissions  <br>
+        </a>
+       </div>
+        <div class="col-xs-5 col-md-3">
+           <a href="#" class="btn btn-sq-lg btnColours">
+            <i class="fa fa-plug fa-5x"></i><br/>
+         Permissions  <br>
+        </a>
+       </div>
+        <div class="col-xs-5 col-md-3">
+           <a href="#" class="btn btn-sq-lg btnColours">
+            <i class="fa fa-plug fa-5x"></i><br/>
+         Permissions  <br>
+        </a>
+       </div>
+         </div>
+                 
+    </div>
+</div>
+</div>

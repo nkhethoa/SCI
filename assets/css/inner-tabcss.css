@@ -1,0 +1,154 @@
+.tblslim>tbody>tr>td{
+    padding: 13px 0px 8px;
+}
+
+
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.tab
+{
+        margin-top: 24px;
+}
+.tab .nav-tabs{
+    border-bottom: 1px solid #3c763d;
+}
+.tab .nav-tabs li{
+    margin: 0 2px 0 0;
+    position: relative;
+}
+.tab .nav-tabs li.active:before{
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    left: 51px;
+    border: 14px solid transparent;
+    border-top-color: #3c763d;
+}
+.tab .nav-tabs li.active:after{
+    content: "";
+    position: absolute;
+    bottom: -24px;
+    left: 53px;
+    border: 12px solid transparent;
+    border-top-color: #fff;
+}
+.tab .nav-tabs li a{
+    border: none;
+    padding: 13px 35px;
+    font-size: 14px;
+    color: #777;
+    background: transparent;
+    border-radius: 0;
+}
+.tab .nav-tabs li a:hover{
+    color: #3c763d;
+}
+.tab .nav-tabs li a i{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.tab .nav-tabs li.active a,
+.tab .nav-tabs li.active a:focus,
+.tab .nav-tabs li.active a:hover{
+    border: none;
+    background: transparent;
+    color: #3c763d;
+    transition: background 0.20s linear 0s;
+}
+.tab .tab-content{
+    font-size: 14px;
+    color: #777;
+    background: #fff;
+    line-height: 25px;
+    padding: 10px;
+}
+.tab .tab-content h3{
+    font-size: 26px;
+}
+@media only screen and (max-width: 479px) {
+    .tab .nav-tabs li a{
+        padding: 10px;
+    }
+    .tab .nav-tabs li.active:before{
+        left: 28px;
+        bottom: -24px;
+        border-width: 12px;
+    }
+    .tab .nav-tabs li.active:after{
+        left: 30px;
+        bottom: -20px;
+        border-width: 10px;
+    }
+}
+.btn span.glyphicon {               
+    opacity: 0;             
+}
+.btn.active span.glyphicon {                
+    opacity: 1;             
+}
+
+/* ==============Tab content body===========*/
+.panel-disc-title{
+    padding-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.panel-disc-title > a:hover, 
+.panel-disc-title > a:active, 
+.panel-disc-title > a:focus  {
+    text-decoration:none;
+}
+
+/*panel discussion start*/
+.panelGroup{
+    margin-bottom: 5px; 
+}
+
+/*panel discussion end
+.glyphicon { margin-right:10px; }*/
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+
+
+/*Search Academy*/
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
